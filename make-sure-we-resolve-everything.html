@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Customer Support Metrics - H1FY25 vs H2FY25</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ddd; /* Added border */
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9; /* Light grey background for rows */
+  }
+  th {
+    background-color: #ffc107;
+    color: #212529;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+  }
+  td {
+    padding: 12px;
+    text-align: center;
+  }
+  td:first-child {
+    text-align: left;
+    font-weight: bold;
+  }
+  tr:nth-child(odd) {
+    background-color: #fff; /* White background for odd rows */
+  }
+  .header-row th {
+    padding: 16px;
+  }
+  .metric-row td {
+    padding: 14px;
+  }
+  .dotted-separator td {
+    border-bottom: 1px dotted #ccc;
+  }
+  .dotted-separator:last-child td {
+    border-bottom: none;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <table>
+      <thead>
+        <tr class="header-row">
+          <th></th>
+          <th>H1FY25</th>
+          <th>H2FY25</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="metric-row dotted-separator">
+          <td>Calls handled</td>
+          <td>715,355</td>
+          <td>739,677</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>Average Talk Time</td>
+          <td>6 mins 52 secs</td>
+          <td>5 mins, 58 secs</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>Service Requests</td>
+          <td>673,803</td>
+          <td>864,095</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>TAT (Hrs)</td>
+          <td>2:24:02</td>
+          <td>1:54:08</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>FTR: First-time resolution (in %)</td>
+          <td>93.00%</td>
+          <td>96.00%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Financial Year Comparison</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ddd;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+  }
+  th {
+    background-color: #ffc107;
+    color: #212529;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+  }
+  td {
+    padding: 12px;
+    text-align: center;
+  }
+  td:first-child {
+    text-align: left;
+    font-weight: bold;
+  }
+  tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  .header-row th {
+    padding: 16px;
+  }
+  .metric-row td {
+    padding: 14px;
+  }
+  .dotted-separator td {
+    border-bottom: 1px dotted #ccc;
+  }
+  .dotted-separator:last-child td {
+    border-bottom: none;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <table>
+      <thead>
+        <tr class="header-row">
+          <th></th>
+          <th>FY 2023-24</th>
+          <th>FY 2024-25</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="metric-row dotted-separator">
+          <td>Gross Written Premium</td>
+          <td>₹9,016 crore</td>
+          <td>₹10,282 crore</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>Number of Policies Sold</td>
+          <td>11.1 million</td>
+          <td>12 million</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>Total Customers Served^</td>
+          <td>47.1 million</td>
+          <td>67 million</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>Total Claims Settled^</td>
+          <td>2.0 million</td>
+          <td>2.94 million</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>Premium Growth</td>
+          <td>24.5%</td>
+          <td>14.04%</td>
+        </tr>
+        <tr class="metric-row dotted-separator">
+          <td>Profit After Tax (PAT)</td>
+          <td>₹1.82 billion</td>
+          <td>₹4.25 billion</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
